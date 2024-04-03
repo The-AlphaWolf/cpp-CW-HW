@@ -1,3 +1,5 @@
+//1. Print all prime nos. between a range (nested loops)
+
 #include<iostream>
 using namespace std;
 
