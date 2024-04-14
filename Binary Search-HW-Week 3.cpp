@@ -29,6 +29,11 @@ int main() {
   cout<<"Enter the element you want to find : "<<endl;
   cin>>a;
   sort(l, l+n);
+  cout<<"The sorted array is : ";
+  for(int i=0;i<n;i++){
+      cout<<l[i]<<"\t";
+  }
+  cout<<endl;
   int result = binarySearch(l, a, 0, n - 1);
   if (result == -1)
     cout<<"Element not found";
